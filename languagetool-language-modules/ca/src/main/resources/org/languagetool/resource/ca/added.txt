@@ -4,19 +4,28 @@
 # Format: fullform baseform postags (tab separated)
 ########## Dictionary fixes ##########
 ########## Additions ##########
+Aldama	Aldama	NPCNSP0
+Benfica	Benfica	NPMSO00
+Bonnie	Bonnie	NPCNSP0
 Buñuel	Buñuel	NPCNSP0
 CA	CA	NCFP000
 CA	CA	NCFS000
 CCAA	CA	NCFP000
+Cabanilles	Cabanilles	NPCNSP0
+Clyde	Clyde	NPCNSP0
 Concord	Concord	NPCSG00
 Cuisenaire	Cuisenaire	NPCNSP0
+F-Droid	F-Droid	NPCNO00
 Finkielkraut	Finkielkraut	NPCNSP0
 Guirilàndia	Guirilàndia	NPFSG00
 Hezbol·là	Hezbol·là	NPMSO00
 Hizbol·là	Hizbol·là	NPMSO00
+Igualada	Igualada	NPMSO00
 Iona	Iona	NPFSG00
 Iona	Iona	NPFSSP0
 Kinder	Kinder	NPCNSP0
+McCloskey	McCloskey	NPCNSP0
+Nel·lo	Nel·lo	NPCNSP0
 Perejaume	Perejaume	NPMSSP0
 Pisídia	Pisídia	NPFSG00
 Szczęsny	Szczęsny	NPCNSP0
@@ -37,6 +46,8 @@ austroprussiana	austroprussià	AQ0FS0
 austroprussianes	austroprussià	AQ0FP0
 austroprussians	austroprussià	AQ0MP0
 austroprussià	austroprussià	AQ0MS0
+clivellament	clivellament	NCMS000
+clivellaments	clivellament	NCMP000
 demo	demo	NCFS000
 demos	demo	NCFP000
 demos	demos	NCMN000
@@ -48,6 +59,10 @@ ecoalfabetitzacions	ecoalfabetització	NCFP000
 ecoalfabetització	ecoalfabetització	NCFS000
 espurneta	espurneta	NCFS000
 espurnetes	espurneta	NCFP000
+exsocialista	exsocialista	AQ0CS0
+exsocialistes	exsocialista	AQ0CP0
+fotodegradable	fotodegradable	AQ0CS0
+fotodegradables	fotodegradable	AQ0CP0
 fritfrit	fritfrit	NCMS000
 fritfrits	fritfrit	NCMP000
 madrilenyocèntric	madrilenyocèntric	AQ0MS0
@@ -62,6 +77,14 @@ màcron	màcron	NCMS000
 màcrons	màcron	NCMP000
 ordinal	ordinal	AQ0CS0
 ordinals	ordinal	AQ0CP0
+plagiador	plagiador	AQ0MS0
+plagiador	plagiador	NCMS000
+plagiadora	plagiador	AQ0FS0
+plagiadora	plagiador	NCFS000
+plagiadores	plagiador	AQ0FP0
+plagiadores	plagiador	NCFP000
+plagiadors	plagiador	AQ0MP0
+plagiadors	plagiador	NCMP000
 postliterari	postliterari	AQ0MS0
 postliteraris	postliterari	AQ0MP0
 postliteratura	postliteratura	NCFS000
@@ -77,6 +100,10 @@ rooseveltiana	rooseveltià	AQ0FS0
 rooseveltianes	rooseveltià	AQ0FP0
 rooseveltians	rooseveltià	AQ0MP0
 rooseveltià	rooseveltià	AQ0MS0
+semitotalitari	semitotalitari	AQ0MS0
+semitotalitaris	semitotalitari	AQ0MP0
+semitotalitària	semitotalitari	AQ0FS0
+semitotalitàries	semitotalitari	AQ0FP0
 sobreanalitz	sobreanalitzar	VMIP1S0B
 sobreanalitza	sobreanalitzar	VMIP3S00
 sobreanalitza	sobreanalitzar	VMM02S00
@@ -165,6 +192,10 @@ sobreanàlisi	sobreanàlisi	NCFS000
 sobreanàlisis	sobreanàlisi	NCFP000
 sobrenaturalitat	sobrenaturalitat	NCFS000
 sobrenaturalitats	sobrenaturalitat	NCFP000
+termohigromètric	termohigromètric	AQ0MS0
+termohigromètrica	termohigromètric	AQ0FS0
+termohigromètrics	termohigromètric	AQ0MP0
+termohigromètriques	termohigromètric	AQ0FP0
 testosterònic	testosterònic	AQ0MS0
 testosterònica	testosterònic	AQ0FS0
 testosterònics	testosterònic	AQ0MP0
@@ -179,3 +210,4 @@ tontos	tonto	AQ0MP0
 tontos	tonto	NCMP000
 ximple	ximple	NCCS000
 ximples	ximple	NCCP000
+Íñigo	Íñigo	NPMSSP0
