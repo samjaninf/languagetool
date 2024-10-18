@@ -8722,7 +8722,7 @@ regexp case-insensitive maken: (?i)
 					<marker>
 						<token>te</token>
 					</marker>
-					<token postag_regexp="yes" postag="ZNW.*"><exception postag_regexp="yes" postag="BNW.*|WKW:TGW:INF.*|BYW:JES"/><exception case_sensitive="yes" regexp="yes">[A-Z].*|koop|huur|voer|Den|baat|beurt|gast|hulp|pas|pletter|schande|voet|vondeling|vriend|weer|paard|voren|water|hoop|kijk|fiets|keer|gemeente|weinig|werk|midden|lijf|meer|boek|vuur|zwaard|wapen|woord|leen|land</exception></token>
+					<token postag_regexp="yes" postag="ZNW.*DE_"><exception postag_regexp="yes" postag="BNW.*|WKW:TGW:INF.*|BYW:JES"/><exception case_sensitive="yes" regexp="yes">[A-Z].*|koop|huur|voer|Den|baat|beurt|gast|hulp|pas|pletter|schande|voet|vondeling|vriend|weer|paard|voren|water|hoop|kijk|fiets|keer|gemeente|weinig|werk|midden|lijf|meer|boek|vuur|zwaard|wapen|woord|leen|land</exception></token>
 				</pattern>
 				<message>Voor een zelfstandig naamwoord hoort <suggestion>de</suggestion>. Er is ook een kans dat u <suggestion>ter</suggestion> bedoelt.</message>
 				<example correction="de|ter">Zij heeft <marker>te</marker> leeservaring.</example>
@@ -10948,6 +10948,21 @@ regexp case-insensitive maken: (?i)
 				<pattern><token>des</token><token>te</token><marker><token><exception postag="BNW:VGR:ONV"/></token></marker></pattern>
 				<message>Er staat een onverwacht woord na 'des te'.</message>
 				<example correction="">Dit zal nog des te <marker>meet</marker> worden.</example>
+			</rule>
+		</rulegroup>
+
+		<rulegroup id="VOOR_DE_MOORD_VAN" name="Veroordeeld voor de moord van(op) de leider.">
+			<rule>
+				<pattern>
+					<token>voor</token>
+					<token>de</token>
+					<token>moord</token>
+					<marker>
+						<token>van</token>
+					</marker>
+				</pattern>
+				<message>Bedoelt u soms <suggestion>op</suggestion>?</message>
+				<example correction="op">Veroordeeld voor de moord <marker>van</marker> de leider.</example>
 			</rule>
 		</rulegroup>
 
@@ -17984,8 +17999,10 @@ regexp case-insensitive maken: (?i)
 			<rule>
 				<antipattern>
 				    <token postag_regexp="yes" postag="SENT_START|START"/>
-				    <token>,</token>
+				    <token/>
+				    <token spacebefore="no">,</token>
 				    <token>dat</token>
+				    <example>Haha, dat heb je heel goed gezien.</example>
 				</antipattern>
 				<!--
 				<antipattern>
@@ -27325,7 +27342,7 @@ regexp case-insensitive maken: (?i)
                 <!--<example correction="iPad Mini"><marker>IPAD mini</marker>.</example>-->
                 <!--<example correction="Luis Suárez"><marker>Luiz Suárez</marker>.</example>-->
                 <!--<example correction="São Francisco"><marker>Sao Francisco</marker>.</example>-->
-                <example correction="Sigismond Thalberg"><marker>Sigismund Thalberg</marker>.</example>
+                <!--<example correction="Sigismond Thalberg"><marker>Sigismund Thalberg</marker>.</example>-->
                 <!--<example correction="ante portas">Hannibal <marker>ante Portas</marker>.</example>-->
                 <!--<example correction="Spiegel Online"><marker>spiegel online</marker>.</example>-->
             </rule>

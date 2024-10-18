@@ -1,18 +1,31 @@
 # Words that extend the spell checker. See ignore.txt for words that should be
 # completely ignored (i.e. not used to create suggestions).
+Aldama
+Benfica
+Bonnie
 Buñuel
 CA
 CCAA
+Cabanilles
+Clyde
 Concord
 Cuisenaire
+F-Droid
 Finkielkraut
 Guirilàndia
 Hezbol·là
 Hizbol·là
+ICGC
+IVAJ
+Igualada
 Iona
+Joker
 Kinder
+McCloskey
+Nel·lo
 Perejaume
 Pisídia
+Robin
 Szczęsny
 Venn
 acceleracionisme
@@ -31,6 +44,8 @@ austroprussiana
 austroprussianes
 austroprussians
 austroprussià
+clivellament
+clivellaments
 demo
 demos
 disciplinador
@@ -41,6 +56,10 @@ ecoalfabetitzacions
 ecoalfabetització
 espurneta
 espurnetes
+exsocialista
+exsocialistes
+fotodegradable
+fotodegradables
 fritfrit
 fritfrits
 madrilenyocèntric
@@ -55,6 +74,12 @@ màcron
 màcrons
 ordinal
 ordinals
+plagiador
+plagiadora
+plagiadores
+plagiadors
+portaesquer
+portaesquers
 postliterari
 postliteraris
 postliteratura
@@ -70,6 +95,10 @@ rooseveltiana
 rooseveltianes
 rooseveltians
 rooseveltià
+semitotalitari
+semitotalitaris
+semitotalitària
+semitotalitàries
 sobreanalitz
 sobreanalitza
 sobreanalitzada
@@ -134,6 +163,10 @@ sobreanàlisi
 sobreanàlisis
 sobrenaturalitat
 sobrenaturalitats
+termohigromètric
+termohigromètrica
+termohigromètrics
+termohigromètriques
 testosterònic
 testosterònica
 testosterònics
@@ -144,3 +177,5 @@ tonto
 tontos
 ximple
 ximples
+zaplanisme
+Íñigo
