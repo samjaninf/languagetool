@@ -1,5 +1,7 @@
 #Catalan multiwords file used for chunking
 #separatorRegExp=[\t;]
+Angine de Poitrine;NPCNO00
+Joan Hircà;NPMSSP0
 Santiago Fisas;NPMSSP0
 El gran Gatsby;NPMSO00
 Jan Raich;NPMSSP0

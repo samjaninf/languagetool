@@ -944,3 +944,4 @@ D.ª=Sra.|Dra.|Na	¿Volíeu dir "Sra." (senyora) o "Dra." (doctora)?
 la viu viu=la viu-viu	S'escriu amb guionet.
 a nivell pràctic=en la pràctica	En sentit figurat, val més evitar l'expressió "a nivell".
 lo mateix=el mateix|la mateixa cosa|igual
+bon àrea=BonÀrea	Empresa alimentària.

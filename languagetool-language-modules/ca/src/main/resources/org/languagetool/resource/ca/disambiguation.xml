@@ -17898,7 +17898,7 @@ Copyright (C) 2012 Jaume Ortolà i Font
             <token postag="NC.*" postag_regexp="yes"/>
         </antipattern>
         <pattern>
-            <token><exception postag="V.[MSING].*|_GV_|R[GN]|.*LOC_ADV.*|C.*|_PUNCT.*|SENT_START" postag_regexp="yes"/><exception regexp="yes">["“«'‘(]|\d+</exception><exception inflected="yes" regexp="yes">mot|paraula|terme|expressió|vocable|nom|tipus</exception></token>
+            <token><exception postag="V.[MSING].*|_GV_|R[GN]|.*LOC_ADV.*|C.*|_PUNCT.*|SENT_START" postag_regexp="yes"/><exception regexp="yes">["“«'‘(]|\d+</exception><exception inflected="yes" regexp="yes">mot|paraula|terme|expressió|vocable|nom|tipus|denominació</exception></token>
             <marker>
                 <and>
                     <token postag="NC.*" postag_regexp="yes"><exception postag="_GN_.*" postag_regexp="yes"/><exception regexp="yes">força|coma|cap|noms?|nous?|deu|viu|cometa</exception></token>
@@ -18219,7 +18219,7 @@ Copyright (C) 2012 Jaume Ortolà i Font
     </rule>
     <!-- <rule id="verb_nom5" name="verb + nom">
         <pattern>
-        <token postag="N.*" postag_regexp="yes"><exception postag="[AD].*|V.N.*|RG.*" postag_regexp="yes"></exception><exception inflected="yes" regexp="yes">mot|paraula|terme|expressió|vocable|nom|tipus</exception></token>
+        <token postag="N.*" postag_regexp="yes"><exception postag="[AD].*|V.N.*|RG.*" postag_regexp="yes"></exception><exception inflected="yes" regexp="yes">mot|paraula|terme|expressió|vocable|nom|tipus|denominació</exception></token>
         La gran taula
         <marker>
         <and>
